@@ -1,0 +1,18 @@
+﻿@model List<Product>
+@{
+    ViewData["Title"] = "Catagory Detail";
+}
+@{
+    Layout = "_Layout";
+}
+<section id="products">
+    <div class="container">
+        <h3 class="my-3">Products</h3>
+        <div class="row">
+            <partial name="_ProductsPartialView"/>
+            <button class="btn btn-dribbble align-content-center  my-2 " id="show-more">Show More...</button>
+        </div>
+
+    </div>
+    
+</section>
